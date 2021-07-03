@@ -1,0 +1,51 @@
+footer.page-footer {
+	background: black;
+	padding: 85px 0 40px 0;
+}
+
+div.footer-inside {
+	max-width: 705px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+div.border {
+	border-left: 1px solid rgb(54, 54, 54);
+	height: 165px;
+}
+
+div.footer-logo > img {
+	margin-bottom: 20px;
+}
+
+div.footer-logo > p {
+	color: white;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 1.125em;
+}
+
+div.footer-contact {
+	display: flex;
+	align-items: center;
+}
+
+div.footer-contact:first-child {
+	margin-bottom: 35px;
+}
+
+div.footer-contact > svg {
+	margin-right: 25px;
+	fill: white;
+}
+
+div.contact-info > p {
+	color: white;
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-size: 0.9375em;
+}
+
+div.contact-info > p:first-child {
+	margin-bottom: 15px;
+}

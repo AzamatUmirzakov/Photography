@@ -1,0 +1,28 @@
+div.about-us-inside {
+	padding: 150px 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+div.about-us-text {
+	max-width: 390px;
+}
+
+div.about-us-text>h1 {
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-size: 2.5em;
+	margin-bottom: 25px;
+}
+
+div.about-us-text>p {
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-size: 1em;
+}
+
+div.about-us-text>p:first-of-type {
+	margin-bottom: 30px;
+}
+
+img.about-us-img {
+	box-shadow: 10px 10px 0 0 rgba(209, 34, 145);
+}
